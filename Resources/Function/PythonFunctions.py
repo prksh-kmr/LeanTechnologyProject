@@ -1,28 +1,12 @@
-import calendar
-import zipfile
-import configparser
-import copy
-import glob
-import json
-import os
 import random
-import shutil
 import string
-import time
-from zipfile import ZipFile
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
 from datetime import timedelta, datetime, date
-import datetime
-import csv
 import string
-import json
 import random
-import tempfile
-import re
-import uuid
 
 try:
     from robot.libraries.BuiltIn import BuiltIn
