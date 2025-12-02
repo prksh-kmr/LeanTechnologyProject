@@ -1,1 +1,0 @@
-# lean-technology-test
