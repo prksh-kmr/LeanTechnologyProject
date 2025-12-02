@@ -25,22 +25,27 @@ LeanTechnologyProject/
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   `git clone https://github.com/prksh-kmr/LeanTechnologyProject.git`
    ```
 2. Navigate to the project directory:
    ```bash
-   cd LeanTechnologyProject
+   `cd LeanTechnologyProject`
    ```
 3. Install the dependencies:
    ```bash
-   pip install -r requirements.txt
+   `pip install -r requirements.txt`
    ```
 
 ## Running Tests
-To execute the test cases, run the following command:
+1. Open a terminal and navigate to the project directory.
+2. Run the test suite using the following command:
 ```bash
 robot Tests/SauceLab/SauceDemo.robot
 ```
+3. After execution, reports will be generated in the `WebReports/` folder:
+   - `log.html`: Detailed execution log.
+   - `report.html`: Summary report.
+   - `output.xml`: XML output for further processing.
 
 ## Project Features
 - Automated login and checkout flow for Sauce Demo.
